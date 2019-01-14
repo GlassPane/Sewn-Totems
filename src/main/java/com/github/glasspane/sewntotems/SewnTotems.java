@@ -22,4 +22,7 @@ public class SewnTotems {
         return log;
     }
 
+    public static void onLoad() {
+        log.info("Hello there!");
+    }
 }
