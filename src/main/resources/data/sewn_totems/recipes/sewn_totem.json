@@ -1,0 +1,18 @@
+{
+    "type": "sewn_totems:crafting_special_sewn_totem",
+    "group": "sewn_totems",
+    "ingredients": [
+        {
+            "item": "minecraft:string"
+        },
+        {
+            "item": "sewn_totems:bone_needle"
+        }
+    ],
+    "totem": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "result": {
+        "item": "sewn_totems:sewn_totem"
+    }
+}

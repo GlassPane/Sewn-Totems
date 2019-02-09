@@ -1,0 +1,16 @@
+{
+  "pattern": [
+    "B",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "type": "minecraft:crafting_shaped",
+  "group": "sewn_totems",
+  "result": {
+    "item": "sewn_totems:bone_needle"
+  }
+}

@@ -1,18 +1,20 @@
 {
-  "id": "sewn_totems",
-  "name": "Sewn Totems",
-  "description": "Attach Totems to Entities",
-  "version": "${version}",
-  "side": "universal",
-  "initializers": [
-    "com.github.glasspane.sewntotems.mixin.init.SewnTotemsLoader"
-  ],
-  "requires": {
-    "fabric": "*",
-    "textilelib": "*"
-  },
-  "mixins": {
-    "client": "sewn_totems.client.json",
-    "common": "sewn_totems.common.json"
-  }
+    "id": "sewn_totems",
+    "name": "Sewn Totems",
+    "description": "Attach Totems to Entities",
+    "version": "${version}",
+    "side": "universal",
+    "initializers": [
+        "com.github.glasspane.sewntotems.SewnTotems",
+        "com.github.glasspane.sewntotems.init.TotemsItems",
+        "com.github.glasspane.sewntotems.init.TotemsRecipes"
+    ],
+    "requires": {
+        "fabric": "*",
+        "textilelib": "*"
+    },
+    "mixins": {
+        "client": "sewn_totems.client.json",
+        "common": "sewn_totems.common.json"
+    }
 }
