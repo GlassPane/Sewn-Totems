@@ -3,6 +3,7 @@
   "package": "com.github.glasspane.sewntotems.mixin.client",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+      "MixinItemModels"
   ],
   "injectors": {
     "defaultRequire": 1
